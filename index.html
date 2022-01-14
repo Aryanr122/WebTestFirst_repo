@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hi again to </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="ScriptDom.js"></script>
+</head>
+<body>
+    <h1 style="color: blue;">hello world</h1> <br/>
+    <p style="width: 200px; background-color: burlywood;">hi again to </p>
+
+    <h3>Java Script DOM</h3>
+    <p class="size" id="p1"> this is para 1</p>
+    <p id="p2">this ia para 2</p>
+
+    <button onclick="bytagnames()"> click by tag names</button>
+    <button  id="btn2">  click change</button>
+
+    <button onclick="changestyle('p2')"> click to change style</button>
+
+    <p id="demo"> this is para 3</p>
+
+    <div>
+
+        <input type="checkbox" id="cb" />
+        <label for="cb">show button</label>
+    </div>
+    <script>
+        document.getElementById("btn2").addEventListener("click", change2);
+        document.getElementById("p2").addEventListener("click" , 
+    function(){
+        alert("hello");
+
+    });
+
+    </script>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Bootstraping my web page</h1>
+            <p>jumbotron Example</p>
+        </div>    
+
+    </div>
+
+
+
+</body>
+</html>
